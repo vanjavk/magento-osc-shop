@@ -1,0 +1,16 @@
+
+<?php
+
+foreach($this->getBlog() as $k=>$v)
+{
+    echo '<div>';
+    echo '<h1 style="font-family: Verdana, Arial;" class="entry-title">'.$v['title'].'</h1>';
+    echo '<label>'.substr($v['pubDate'], 0, -5).'</label>';
+    echo '<div class="entry-content"><p>'.$v['content'].'</p></div>';
+    echo '<div><hr>';
+
+}
+
+
+
+?>

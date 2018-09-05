@@ -160,6 +160,7 @@ return [
         'Magento_CatalogWidget' => 1,
         'Dotdigitalgroup_Email' => 1,
         'Magento_WishlistAnalytics' => 1,
+        'Oscblog_Blog' => 1,
         'Shopial_Facebook' => 1,
         'Tawk_Widget' => 1,
         'Temando_Shipping' => 1,
